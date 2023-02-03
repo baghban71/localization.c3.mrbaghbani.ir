@@ -5,7 +5,7 @@
     "plugins": {
       "mrbaghbani_ir_localization": {
         "name": "LocalizationPlugin",
-        "description": "An example third-party plugin.",
+        "description": "localization plugin.",
         "help-url": "https://www.MRBAGHBANI.IR",
         "properties": {
           "lang": {
@@ -30,14 +30,14 @@
           }
         },
         "actions": {
-          "log": {
-            "list-name": "Log to console",
-            "display-text": "[i]{0}[/i] Log to console",
-            "description": "Log a test message to the console.",
+          "set-lang": {
+            "list-name": "Set Language",
+            "display-text": "[i]{0}[/i] Set Language",
+            "description": "Set Language",
             "params": {
               "value": {
                 "name": "value",
-                "desc": "text to set."
+                "desc": "lang to set."
               }
             }
           },

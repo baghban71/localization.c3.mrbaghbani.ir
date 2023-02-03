@@ -24,7 +24,7 @@ const PLUGIN_CLASS = SDK.Plugins.MRBaghbani_ir_Localization = class Localization
         this._info.SetDescription(self.lang(".description"));
         this._info.SetVersion(PLUGIN_VERSION);
         this._info.SetCategory(PLUGIN_CATEGORY);
-        this._info.SetAuthor("Scirra");
+        this._info.SetAuthor("MRBaghbani.ir");
         this._info.SetHelpUrl(self.lang(".help-url"));
         this._info.SetIsSingleGlobal(true);
 

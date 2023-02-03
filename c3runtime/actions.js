@@ -1,5 +1,5 @@
 self.C3.Plugins.MRBaghbani_ir_Localization.Acts = {
-    Log(value) {
+    SetLang(value) {
         this._SetLangProperty(value);
     },
     setSpriteFontText(group, value) {
