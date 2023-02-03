@@ -1,0 +1,16 @@
+{
+	"data":[
+		{"lang":"fa","ui_id":9,"message":"سلام","font":"Lalezar","size":12,"h_aligment":2},
+		{"lang":"en","ui_id":9,"message":"Hello","font":"Arial","size":12,"h_aligment":0},
+		{"lang":"fa","var":"score","message":"امتیاز"},
+		{"lang":"en","var":"score","message":"score"},
+		{"lang":"fa","ui_id":10,"frame":1},
+		{"lang":"en","ui_id":10,"frame":0},
+		{"lang":"fa","ui_id":12,"group":1,"message":"مﻼﺳ"},
+		{"lang":"en","ui_id":4,"group":1,"message":"Hello"},
+		{"lang":"fa","ui_id":19,"group":2,"message":"یﺮﯿﮔرﺎﺑ لﺎﺣرد"},
+		{"lang":"en","ui_id":18,"group":2,"message":"Loading"},
+		{"lang":"fa","var":"loading","message":"یﺮﯿﮔرﺎﺑ لﺎﺣرد"},
+		{"lang":"en","var":"loading","message":"Loading"}
+	]
+}
