@@ -1,17 +1,7 @@
 {
   "custom": {
     "conditions": [
-      {
-        "id": "is-large-number",
-        "scriptName": "IsLargeNumber",
-        "highlight": true,
-        "params": [
-          {
-            "id": "number",
-            "type": "number"
-          }
-        ]
-      }
+
     ],
     "actions": [
       {

@@ -17,17 +17,7 @@
           "custom": "Custom"
         },
         "conditions": {
-          "is-large-number": {
-            "list-name": "Is large number",
-            "display-text": "[i]{0}[/i] is a large number",
-            "description": "Test if a number is greater than 100.",
-            "params": {
-              "number": {
-                "name": "Number",
-                "desc": "Number to test if greater than 100."
-              }
-            }
-          }
+
         },
         "actions": {
           "set-lang": {
