@@ -1,6 +1,6 @@
 const SDK = self.SDK;
 
-const PLUGIN_CLASS = SDK.Plugins.MyCompany_SingleGlobal;
+const PLUGIN_CLASS = SDK.Plugins.MRBaghbani_ir_Localization;
 
 PLUGIN_CLASS.Instance = class MyCustomInstance extends SDK.IInstanceBase {
     constructor(sdkType, inst) {

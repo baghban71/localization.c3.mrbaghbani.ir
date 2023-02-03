@@ -1,36 +1,18 @@
 const C3 = self.C3;
 
-C3.Plugins.MyCompany_SingleGlobal.Instance = class SingleGlobalInstance extends C3.SDKInstanceBase {
+C3.Plugins.MRBaghbani_ir_Localization.Instance = class SingleGlobalInstance extends C3.SDKInstanceBase {
     constructor(inst, properties) {
         super(inst);
 
-        // Initialise object properties
+
         this._lang = "fa";
         this._localizeData = null;
         this._objectMap = new Map();
-        // this._testObjectProperty = null;
-        // this._testTextProperty = null;
 
-        console.log("---[[properties: ", properties);
 
         if (properties) // note properties may be null in some cases
         {
-            //  this._testProperty = properties[0];
-            // this._testObjectProperty = properties[1];
 
-
-            // 
-            // console.log("---[[instances call afterload ", instances);
-
-            ///  this.foo(properties[1]).then((instances) => { console.log(instances); });
-
-
-            //  this.foo(properties[1], properties[0]);
-            //console.log("---[[instances call afterload", this.GetRuntime().GetObjectClassBySID(properties[1]).GetInstances());
-
-            // console.log("---[[Dispatcher call afterload", instances[0]);
-
-            //   this._testTextProperty = properties[2];
             this.ReadLocalizationData().then((data) => {
                 this._localizeData = data;
                 setTimeout(() => {
@@ -40,12 +22,6 @@ C3.Plugins.MyCompany_SingleGlobal.Instance = class SingleGlobalInstance extends 
 
 
             });
-
-
-
-            // console.log("-===[[inst: ", this.GetRuntime());
-            //  console.log("-===[[inst: ", this.GetRuntime().objects.Sprite);
-
 
         }
     }

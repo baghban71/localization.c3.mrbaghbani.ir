@@ -1,75 +1,75 @@
 ﻿{
-    "languageTag": "en-US",
-    "fileDescription": "Strings for MyCustomPlugin.",
-    "text": {
-        "plugins": {
-            "mycompany_singleglobal": {
-                "name": "MyCustomPlugin",
-                "description": "An example third-party plugin.",
-                "help-url": "https://www.construct.net",
-                "properties": {
-                    "lang": {
-                        "name": "lang property",
-                        "desc": "A test font property. Displayed by 'Alert' action."
-                    }
-                },
-                "aceCategories": {
-                    "custom": "Custom"
-                },
-                "conditions": {
-                    "is-large-number": {
-                        "list-name": "Is large number",
-                        "display-text": "[i]{0}[/i] is a large number",
-                        "description": "Test if a number is greater than 100.",
-                        "params": {
-                            "number": {
-                                "name": "Number",
-                                "desc": "Number to test if greater than 100."
-                            }
-                        }
-                    }
-                },
-                "actions": {
-                    "log": {
-                        "list-name": "Log to console",
-                        "display-text": "[i]{0}[/i] Log to console",
-                        "description": "Log a test message to the console.",
-                        "params": {
-                            "value": {
-                                "name": "value",
-                                "desc": "text to set."
-                            }
-                        }
-                    },
-                    "set-sprite-font-text": {
-                        "list-name": "Set sprite font text",
-                        "display-text": "Set sprite font text [i]{0}[/i] [i]{1}[/i]",
-                        "description": "Set sprite font text.",
-                        "params": {
-                            "group": {
-                                "name": "group",
-                                "desc": "group to set."
-                            },
-                            "value": {
-                                "name": "value",
-                                "desc": "text to set."
-                            }
-                        }
-                    }
-                },
-                "expressions": {
-                    "getvar": {
-                        "description": "getvar by name.",
-                        "translated-name": "getvar",
-                        "params": {
-                            "name": {
-                                "name": "Name",
-                                "desc": "get var by name."
-                            }
-                        }
-                    }
-                }
+  "languageTag": "en-US",
+  "fileDescription": "Strings for LocalizationPlugin.",
+  "text": {
+    "plugins": {
+      "mrbaghbani_ir_localization": {
+        "name": "LocalizationPlugin",
+        "description": "An example third-party plugin.",
+        "help-url": "https://www.MRBAGHBANI.IR",
+        "properties": {
+          "lang": {
+            "name": "lang property",
+            "desc": "A test font property. Displayed by 'Alert' action."
+          }
+        },
+        "aceCategories": {
+          "custom": "Custom"
+        },
+        "conditions": {
+          "is-large-number": {
+            "list-name": "Is large number",
+            "display-text": "[i]{0}[/i] is a large number",
+            "description": "Test if a number is greater than 100.",
+            "params": {
+              "number": {
+                "name": "Number",
+                "desc": "Number to test if greater than 100."
+              }
             }
+          }
+        },
+        "actions": {
+          "log": {
+            "list-name": "Log to console",
+            "display-text": "[i]{0}[/i] Log to console",
+            "description": "Log a test message to the console.",
+            "params": {
+              "value": {
+                "name": "value",
+                "desc": "text to set."
+              }
+            }
+          },
+          "set-sprite-font-text": {
+            "list-name": "Set sprite font text",
+            "display-text": "Set sprite font text [i]{0}[/i] [i]{1}[/i]",
+            "description": "Set sprite font text.",
+            "params": {
+              "group": {
+                "name": "group",
+                "desc": "group to set."
+              },
+              "value": {
+                "name": "value",
+                "desc": "text to set."
+              }
+            }
+          }
+        },
+        "expressions": {
+          "getvar": {
+            "description": "getvar by name.",
+            "translated-name": "getvar",
+            "params": {
+              "name": {
+                "name": "Name",
+                "desc": "get var by name."
+              }
+            }
+          }
         }
+      }
     }
+  }
 }
